@@ -27,8 +27,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -37,7 +37,8 @@
     cursor: pointer;
 
     color: transparent;
-    border: none;
+    border: 1px solid white;
+    border-radius: 50%;
     outline: none;
     background: transparent;
 }
@@ -79,25 +80,29 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -55px;
+    
 }
 [dir='rtl'] .slick-prev
 {
     right: -25px;
     left: auto;
+    
 }
 .slick-prev:before
 {
     content: '←';
+    
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
+    
 }
 
 .slick-next
 {
-    right: -25px;
+    right: -55px;
 }
 [dir='rtl'] .slick-next
 {
@@ -122,17 +127,20 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -75px;
 
     display: block;
 
     width: 100%;
+    
     padding: 0;
     margin: 0;
 
     list-style: none;
-
+    
     text-align: center;
+    
+    
 }
 .slick-dots li
 {
@@ -144,8 +152,11 @@
     height: 20px;
     margin: 0 5px;
     padding: 0;
-
+    padding-top: 4px;
+    
     cursor: pointer;
+
+    
 }
 .slick-dots li button
 {
@@ -178,12 +189,12 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 9px;
     line-height: 20px;
 
     position: absolute;
     top: 0;
-    left: 0;
+    left: -4px;
 
     width: 20px;
     height: 20px;
@@ -192,13 +203,39 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
-
+    color: white;
+    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    color: white;
+}
+
+.slick-dots li.slick-active button:before, .slick-dots li button:before {
+    color: #FFF;
+    opacity: 1;
+    font-size: 14px;
+    padding-top: 1px;
+}
+/*.slick-dots li.slick-active button {
+    border: 4px solid #FFF;
+    border-radius: 100%;
+}*/
+
+.slick-dots li button {
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+}
+
+/*.slick-dots li.slick-active button:before {
+    color: transparent;
+}*/
+
+.slick-dots li button:before {
+    color: transparent;
 }
