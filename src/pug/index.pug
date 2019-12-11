@@ -1,5 +1,6 @@
 include ../blocks/gallery/_gallery.pug
 include ../blocks/wedo/_wedo.pug
+include ../blocks/news/_news.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -13,16 +14,18 @@ html(lang="en")
         link(rel="stylesheet", href="./fonts/GothamBook/font.css")
         link(rel="stylesheet", href="./fonts/Gotham Medium Regular/font.css")
         link(rel="stylesheet", type="text/css" href="./js/jquery.fancybox.min.css")
-        link(link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous")
-        
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous")
+        link(rel="stylesheet" type="text/css" href="./slick/slick.css")
+        link(rel="stylesheet" type="text/css" href="./slick/slick-theme.css")
     body
         +wedo
+        +news
         +gallery
-
 
 <script src="./js/jquery.min.js"></script>
 <script src="./js/jquery.fancybox.min.js"></script>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./js/slider.js"></script>
 
 
 
