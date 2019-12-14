@@ -1,0 +1,12 @@
+.icons {
+    display: inline-block;
+    stroke-width: 0;
+    color: currentColor;
+    fill: white;
+
+    &--home {
+        width: 241px;
+        height: 54px;
+        color: #ffffff !important;
+    }
+}

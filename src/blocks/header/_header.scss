@@ -5,38 +5,38 @@
     //padding-top: 400px;
     //z-index: 1;
     
-    .header1 {
-    background-image: linear-gradient(45deg, rgba(85,183,255, 0.5) 0%, rgba(126,90,255, 0.5) 100%), url('../img/header__slider1.jpg');
+    &__slider1 {
+    background-image: linear-gradient(45deg, rgba(85,183,255, 0.7) 0%, rgba(126,90,255, 0.7) 100%), url('../img/header__slider1.jpg');
     background-size: cover;
-    padding-top: 600px;
+    padding-top: 200px;
     z-index: 1;
     }
 
-    .header2 {
-        background-image: linear-gradient(45deg, rgba(85,183,255, 0.5) 0%, rgba(126,90,255, 0.5) 100%), url('../img/header__slider2.jpg');
+    &__slider2 {
+        background-image: linear-gradient(45deg, rgba(85,183,255, 0.7) 0%, rgba(126,90,255, 0.7) 100%), url('../img/header__slider2.jpg');
         background-size: cover;
-        padding-top: 600px;
+        padding-top: 200px;
         z-index: 1;
         }
 
-    .header3 {
-            background-image: linear-gradient(45deg, rgba(85,183,255, 0.5) 0%, rgba(126,90,255, 0.5) 100%), url('../img/header__slider3.jpg');
+    &__slider3 {
+            background-image: linear-gradient(45deg, rgba(85,183,255, 0.7) 0%, rgba(126,90,255, 0.7) 100%), url('../img/header__slider3.jpg');
             background-size: cover;
-            padding-top: 600px;
+            padding-top: 200px;
             z-index: 1;
             }    
 
-    .header4 {
-                background-image: linear-gradient(45deg, rgba(85,183,255, 0.5) 0%, rgba(126,90,255, 0.5) 100%), url('../img/header__slider4.jpg');
+    &__slider4 {
+                background-image: linear-gradient(45deg, rgba(85,183,255, 0.7) 0%, rgba(126,90,255, 0.7) 100%), url('../img/header__slider4.jpg');
                 background-size: cover;
-                padding-top: 600px;
+                padding-top: 200px;
                 z-index: 1;
                 }    
                 
-    .header5 {
-                background-image: linear-gradient(45deg, rgba(85,183,255, 0.5) 0%, rgba(126,90,255, 0.5) 100%), url('../img/header__slider5.jpg');
+    &__slider5 {
+                background-image: linear-gradient(45deg, rgba(85,183,255, 0.7) 0%, rgba(126,90,255, 0.7) 100%), url('../img/header__slider5.jpg');
                 background-size: cover;
-                padding-top: 600px;
+                padding-top: 200px;
                 z-index: 1;
                     }         
 
@@ -45,6 +45,28 @@
         position: relative;
         max-width: 100%;
         z-index: -1;
+    }
+
+
+    h1 {
+        color: white;
+        font-family: 'gothambold1';
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-family: 'GothamBook';
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-align: center;
     }
 
     .gradient {
