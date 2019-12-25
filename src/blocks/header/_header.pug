@@ -3,11 +3,24 @@ mixin header
             .header__content.single-item
                 .header__slider1.gradient
                     img(src="./img/header__slider1.jpg" alt="slider1")
+                    .header__nav
+                    svg.icons.icons--home
+                        use(xlink:href="#logo")
+                        .header__menu
+                            ul
+                                li About Us
+                                li Projects
+                                li News
+                                li Contact
+                    .header__description    
+                    h1 Simple & Mordern
+                    p We make the world's beautiful every day
                 .header__slider2.gradient
                     img(src="./img/header__slider2.jpg" alt="slider2")
                     .header__nav
                     svg.icons.icons--home
                         use(xlink:href="#logo")
+                    .header__description
                     h1 Simple & Mordern
                     p We make the world's beautiful every day
                 .header__slider3.gradient
@@ -15,6 +28,7 @@ mixin header
                     .header__nav
                     svg.icons.icons--home
                         use(xlink:href="#logo")
+                    .header__description
                     h1 Simple & Mordern
                     p We make the world's beautiful every day
                 .header__slider4.gradient
@@ -22,6 +36,7 @@ mixin header
                     .header__nav
                     svg.icons.icons--home
                         use(xlink:href="#logo")
+                    .header__description
                     h1 Simple & Mordern
                     p We make the world's beautiful every day
                 .header__slider5.gradient
@@ -29,6 +44,7 @@ mixin header
                     .header__nav
                     svg.icons.icons--home
                         use(xlink:href="#logo")
+                    .header__description
                     h1 Simple & Mordern
                     p We make the world's beautiful every day
             .container.container--lg

@@ -5,5 +5,6 @@ $('.single-item').slick({
   speed: 500,
   fade: true,
   lazyLoad: 'ondemand',
-  cssEase: 'linear'
+  cssEase: 'linear',
+  adaptiveHeight: true
   });
