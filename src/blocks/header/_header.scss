@@ -35,10 +35,25 @@
     z-index: 1;
                     }
     
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+            }
 
-
-
-
+    li {
+        display: inline;
+        
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+        
+      }
+      
 
 
     h1 {
@@ -51,7 +66,7 @@
         margin-bottom: 40px;
         text-align: center;
         padding-top: 269px;
-        position: absolute;
+        
     }
 
     p {
@@ -86,7 +101,7 @@
     
 
 
-    &__menu li {
+    .menu {
         color: white;
         font-family: 'GothamBook';
         font-size: 14px;
@@ -95,6 +110,10 @@
         text-transform: uppercase;
     }
    
+    .menuback {
+        background-color: black;
+        color: red;
+    }
 
 }
 
