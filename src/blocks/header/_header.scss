@@ -35,25 +35,18 @@
     z-index: 1;
                     }
     
-    &__nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-            }
+                    &__nav {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        
+
+                        }
 
     li {
         display: inline;
-        
     }
-    
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%
-        
-      }
-      
 
 
     h1 {
@@ -108,11 +101,17 @@
         font-weight: 300;
         line-height: 22px;
         text-transform: uppercase;
+        
     }
    
     .menuback {
         background-color: black;
-        color: red;
+        //position: fixed;
+        //top: 0;
+        //left: 0;
+        //right: 0;
+        //width: 100%;
+        //transition: .3s;
     }
 
 }
