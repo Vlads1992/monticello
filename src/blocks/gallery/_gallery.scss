@@ -59,7 +59,7 @@
         opacity: 0.8;
     }
 
-    &__image img:hover + &__back {
+    &__image picture:hover + &__back {
         display: block;
     }
 

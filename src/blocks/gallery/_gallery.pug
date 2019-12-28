@@ -12,34 +12,53 @@ mixin gallery
                         .gallery__image
                             .item1
                                 a(href="./img/building1.jpg" data-fancybox="images")
-                                    img(src="./img/building1.jpg" alt="building1")
+                                    picture
+                                        source(srcset="./img/building1.webp", type="webp")
+                                        img(src="./img/building1.jpg" alt="building1")
                                     .gallery__back   
-                                        img(src="./img/360.png" alt="360")
+                                        picture
+                                            source(srcset="./img/webp/360.webp", type="webp")
+                                            img(src="./img/360.png", alt="360")
                     .col-3.pl-1
                         .gallery__image
                             .item2
                                 a(href="./img/building2.jpg" data-fancybox="images")
-                                    img(src="./img/building2.jpg" alt="building2")
+                                    picture
+                                        source(srcset="./img/webp/building2.webp", type="webp")
+                                        img(src="./img/building2.jpg" alt="building2")
                                     .gallery__back   
-                                        img(src="./img/360.png" alt="360")
+                                        picture
+                                            source(srcset="./img/webp/360.webp", type="webp")
+                                            img(src="./img/360.png", alt="360")
                             .item4
                                 a(href="./img/building4.jpg" data-fancybox="images")
-                                    img(src="./img/building4.jpg" alt="building4")
+                                    picture
+                                        source(srcset="./img/webp/building4.webp", type="webp")
+                                        img(src="./img/building4.jpg" alt="building4")
                                     .gallery__back   
-                                        img(src="./img/360.png" alt="360")
+                                        picture
+                                            source(srcset="./img/webp/360.webp", type="webp")
+                                            img(src="./img/360.png", alt="360")
                     .col-3.pl-2
                         .gallery__image
                             .item3
                                 a(href="./img/building3.jpg" data-fancybox="images")
-                                    img(src="./img/building3.jpg" alt="building3")
+                                    picture
+                                        source(srcset="./img/webp/building3.webp", type="webp")
+                                        img(src="./img/building3.jpg" alt="building3")
                                     .gallery__back   
-                                        img(src="./img/360.png" alt="360")
+                                        picture
+                                            source(srcset="./img/webp/360.webp", type="webp")
+                                            img(src="./img/360.png", alt="360")
                             .item5
                                 a(href="./img/building5.jpg" data-fancybox="images")
-                                    img(src="./img/building5.jpg" alt="building5")
+                                    picture
+                                        source(srcset="./img/webp/building5.webp", type="webp")
+                                        img(src="./img/building5.jpg" alt="building5")
                                     .gallery__back   
-                                        img(src="./img/360.png" alt="360")
+                                        picture
+                                            source(srcset="./img/webp/360.webp", type="webp")
+                                            img(src="./img/360.png", alt="360")
                 .row
                     .col-12.d-flex.justify-content-center
                         a(href="#" class="gallery__button") See more
-
