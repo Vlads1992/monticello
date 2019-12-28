@@ -1,7 +1,7 @@
 .wedo {
     //background-image: url('/docs/img/wedo_background.jpg');
-    background-position: top;
-    background-repeat: no-repeat;
+    //background-position: top;
+    //background-repeat: no-repeat;
     padding-top: 110px;
     padding-bottom: 140px;
 
@@ -64,10 +64,21 @@
         height: 100%;
         top: -180px;
         right: -200px;
-        background-color: #7e5aff;
+        //background-color: #7e5aff;
         margin-top: 140px;
         z-index: 0;
-    }
+
+
+        @media screen and (max-width: 1599px) {
+            left: 4vw;
+        }
+        //@media screen and (max-width: 1199px) 
+        //{
+    //right: 20px;
+    //}
+
+
+}
 
     &__title p {
     color: #2c4058;
